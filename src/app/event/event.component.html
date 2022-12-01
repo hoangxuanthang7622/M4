@@ -1,0 +1,15 @@
+<p>event works!</p>
+<button class="btn btn-info" (click)="clickMe1()">button 1</button>
+<button class="btn btn-info" on-click="clickMe2()">button 2</button>
+<div on-click="divClick()">
+  qwertyu
+</div>
+<button class="btn btn-success" on-click="btnClick()">button 2</button>
+<br>
+<h3>tags</h3>
+<div class="form-group">
+  <input type="text" class="form-control" name="tag" (keyup)="onKeyUp($event)">
+</div>
+<div class="form-group">
+  <h1 id="result-tag">{{ title }}</h1>
+</div>

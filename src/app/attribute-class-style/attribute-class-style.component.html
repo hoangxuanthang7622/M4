@@ -1,0 +1,11 @@
+<p>attribute-class-style works!</p>
+<p [attr.id]="actionName">attribute-you-are-targeting</p>
+<button [attr.aria-label]="actionName">{{actionName}} with Aria</button>
+<tr><td [attr.colspan]="1+1">Obe-two</td></tr>
+<div [class.sale]="onSale">
+  {{onSale}}
+</div>
+<div [class]="classExpression"></div>
+<hr>
+<nav [style.background-color]="expression">a</nav>
+<nav [style.backgroundcolor]="expression">b</nav>
