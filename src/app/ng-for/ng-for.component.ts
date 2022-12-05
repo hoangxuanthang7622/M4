@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component   } from '@angular/core';
 
 @Component({
   selector: 'app-ng-for',
@@ -11,8 +11,11 @@ export class NgForComponent {
       "angular",
       "php"
     ];
+    numbers:any[] = [];
     constructor() {}
-    ngOnInit(): void{
-
+    ngOnInit(){
+      for (let index = 1; index <= 100; index++){
+        this.numbers.push(index);
+      }
     }
 }

@@ -20,7 +20,16 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NInputComponent } from './n-input/n-input.component';
 // import { RootComponent } from './root/root.component';
 import { OOutComponent } from './o-output/o-out.component';
-
+import { GameNumbersComponent } from './game-numbers/game-numbers.component';
+import { NameCardComponent } from './name-card/name-card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { RatingBarComponent } from './rating/rating.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { UTemplateDrivenComponent } from './u-template-driven/u-template-driven.component';
+import { VDataDrivenComponent } from './v-data-driven/v-data-driven.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { TodoComponent } from './todo/todo.component';
+// import { FormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,12 +48,21 @@ import { OOutComponent } from './o-output/o-out.component';
     NgStyleComponent,
     NInputComponent,
     // RootComponent,
-    OOutComponent
+    OOutComponent,
+    GameNumbersComponent,
+    NameCardComponent,
+    ProgressBarComponent,
+    RatingBarComponent,
+    CountdownTimerComponent,
+    UTemplateDrivenComponent,
+    VDataDrivenComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-FormsModule
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
